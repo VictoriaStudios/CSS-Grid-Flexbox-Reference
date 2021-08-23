@@ -1,0 +1,33 @@
+body{
+    background-color: #373638;
+}
+
+.grid-item{
+    position: relative;
+    font-size: 2rem;
+    background-color: rgb(70, 192, 233);
+    border-style: solid;
+    text-align: center;
+    
+}
+
+
+.grid-item:nth-child(odd)
+{
+    background-color: rgb(182, 228, 243);
+}
+
+.flex-item{
+    position: relative;
+    font-size: 2rem;
+    background-color: rgb(233, 70, 84);
+    border-style: solid;
+}
+
+
+.flex-item:nth-child(odd)
+{
+    background-color:  rgb(230, 119, 128);
+}
+
+
